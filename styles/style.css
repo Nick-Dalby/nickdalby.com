@@ -30,9 +30,14 @@ body {
   letter-spacing: 1px;
 }
 
+.projects p {
+  font-size: 0.9em;
+  letter-spacing: normal;
+}
+
 header,
 footer {
-  padding: 1.2em;
+  padding: 0.5em 1.2em;
   width: 100%;
   position: fixed;
   display: flex;
@@ -108,12 +113,14 @@ body {
   border: 2px solid black;
   background-color: GhostWhite;
   padding: 1em;
+  gap: 1em;
 }
 
 
 .project-footer {
   display: flex;
-  justify-content: space-between; 
+  justify-content: space-between;
+  margin-top: 0.5em;
 }
 
 .project-footer a {
@@ -149,3 +156,11 @@ body {
   font-style: normal;
 }
 
+.react {
+  background-color: #1e2126;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding: 10%;
+  height: 100%;
+}
